@@ -26,6 +26,15 @@
 	
 	</head>
 <body>
+	<div class="preloader">
+		<div class="loader"></div>
+	</div>
+	<script>
+		setTimeout(function () {
+		document.querySelector(".preloader").style.display = "none";
+		document.querySelector(".body-wrap").style.display = "flex";
+		}, 1000);
+	</script>
 	<div class="body-wrap">
 		<header class="header" id="header">
 			<a href="#item" class="header__arr svg">
@@ -141,7 +150,7 @@
 						<p class="header__info">
 							С гарантией производителя
 						</p>
-						<a href="#" class="header__link d-flex">
+						<a href="#order" class="header__link d-flex">
 							<p>Заказать обратный звонок</p>
 							<img src="/img/arr-white.svg" alt="" class="svg">
 						</a>
@@ -156,40 +165,40 @@
 				</h2>
 				<div class="item__box d-flex">
 					<div class="item__block">
-						<a href="#" class="item__top">
+						<a href="catalog-item.html" class="item__top">
 							<img src="/img/i1.png" alt="" class="item__img">
 						</a>
-						<a href="#" class="item__link d-flex">
+						<a href="catalog-item.html" class="item__link d-flex">
 							<p>Фильтры</p>
 							<img src="/img/arr-white.svg" alt="" class="svg item_white">
 							<img src="/img/arr-blue.svg" alt="" class="svg item_blue">
 						</a>
 					</div>
 					<div class="item__block">
-						<a href="#" class="item__top">
+						<a href="catalog-item2.html" class="item__top">
 							<img src="/img/i2.jpg" alt="" class="item__img">
 						</a>
-						<a href="#" class="item__link d-flex">
+						<a href="catalog-item2.html" class="item__link d-flex">
 							<p>Насосы</p>
 							<img src="/img/arr-white.svg" alt="" class="svg item_white">
 							<img src="/img/arr-blue.svg" alt="" class="svg item_blue">
 						</a>
 					</div>
 					<div class="item__block">
-						<a href="#" class="item__top">
+						<a href="catalog-item3.html" class="item__top">
 							<img src="/img/i3.jpg" alt="" class="item__img">
 						</a>
-						<a href="#" class="item__link d-flex">
+						<a href="catalog-item3.html" class="item__link d-flex">
 							<p>Запасные части</p>
 							<img src="/img/arr-white.svg" alt="" class="svg item_white">
 							<img src="/img/arr-blue.svg" alt="" class="svg item_blue">
 						</a>
 					</div>
 					<div class="item__block">
-						<a href="#" class="item__top">
+						<a href="catalog-item4.html" class="item__top">
 							<img src="/img/i4.jpg" alt="" class="item__img">
 						</a>
-						<a href="#" class="item__link d-flex">
+						<a href="catalog-item4.html" class="item__link d-flex">
 							<p>Прочее</p>
 							<img src="/img/arr-white.svg" alt="" class="svg item_white">
 							<img src="/img/arr-blue.svg" alt="" class="svg item_blue">
@@ -318,7 +327,7 @@
 						<p class="about__text">
 							Компания «СНАБТЭК» основана в 2012 году. Это коллектив единомышленников в сфере организации комплексных поставок промышленного оборудования. В настоящий̆ момент развиваем собственное производство фильтровального оборудования. Мы успешно осуществили поставки фильтров, насосов и запасных частей к насосам крупнейшим заказчикам, таким как ЮНИПРО, ЛУКОЙЛ, группа "ИнтерРАО", ГМК "Норильский никель", НК Роснефть, РусГидро.
 						</p>
-						<a href="#" class="order__btn d-flex" data-submit>
+						<a href="about.html" class="order__btn d-flex" data-submit>
 							<p>
 								Узнать подробнее 
 							</p>
@@ -363,7 +372,7 @@
 					<h2>
 						Новости <br class="mob"> и статьи
 					</h2>
-					<a href="#" class="order__btn d-flex" data-submit>
+					<a href="news.html" class="order__btn d-flex" data-submit>
 						<p>
 							Смотреть все новости
 						</p>
@@ -375,7 +384,7 @@
 					<div class="news__item">
 						<img src="/img/n4.png" alt="" class="news__pic">
 						<div class="news__content">
-							<a href="#" class="news__title">
+							<a href="news-item.html" class="news__title">
 								Заголовок новости
 							</a>
 							<p class="news__text">
@@ -383,7 +392,7 @@
 							</p>
 						</div>
 						<div class="news__bottom d-flex">
-							<a href="#" class="news__link">
+							<a href="news-item.html" class="news__link">
 								Подробнее
 							</a>
 							<p class="news__data">
@@ -394,7 +403,7 @@
 					<div class="news__item">
 						<img src="/img/n3.png" alt="" class="news__pic">
 						<div class="news__content">
-							<a href="#" class="news__title">
+							<a href="news-item2.html" class="news__title">
 								Заголовок новости
 							</a>
 							<p class="news__text">
@@ -402,7 +411,7 @@
 							</p>
 						</div>
 						<div class="news__bottom d-flex">
-							<a href="#" class="news__link">
+							<a href="news-item2.html" class="news__link">
 								Подробнее
 							</a>
 							<p class="news__data">
@@ -413,7 +422,7 @@
 					<div class="news__item">
 						<img src="/img/n2.png" alt="" class="news__pic">
 						<div class="news__content">
-							<a href="#" class="news__title">
+							<a href="news-item3.html" class="news__title">
 								Заголовок новости
 							</a>
 							<p class="news__text">
@@ -421,7 +430,7 @@
 							</p>
 						</div>
 						<div class="news__bottom d-flex">
-							<a href="#" class="news__link">
+							<a href="news-item3.html" class="news__link">
 								Подробнее
 							</a>
 							<p class="news__data">
@@ -432,7 +441,7 @@
 					<div class="news__item">
 						<img src="/img/n1.png" alt="" class="news__pic">
 						<div class="news__content">
-							<a href="#" class="news__title">
+							<a href="news-item4.html" class="news__title">
 								Заголовок новости
 							</a>
 							<p class="news__text">
@@ -440,7 +449,7 @@
 							</p>
 						</div>
 						<div class="news__bottom d-flex">
-							<a href="#" class="news__link">
+							<a href="news-item4.html" class="news__link">
 								Подробнее
 							</a>
 							<p class="news__data">
@@ -662,9 +671,6 @@
 				</div>
 			</div>
 		</div>
-	<script>
-		
-	</script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
 
