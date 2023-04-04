@@ -67,7 +67,7 @@ function styles(){
 }
 
 function sctipts(){
-	return gulp.src(['src/jquery.min.js', 'src/js/main.js'])
+	return gulp.src(['src/js/main.js'])
 		.pipe(concat('all.js'))
 		.pipe(gulp.dest('dev/js/'))
 		.pipe(browserSync.stream());
