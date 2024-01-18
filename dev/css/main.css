@@ -348,40 +348,40 @@ html *::-webkit-scrollbar-thumb {
 
 @font-face {
   font-family: "Actay Wide";
-  src: url("/fonts/ActayWide-Bold.eot");
-  src: url("/fonts/ActayWide-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/ActayWide-Bold.woff2") format("woff2"), url("/fonts/ActayWide-Bold.woff") format("woff"), url("/fonts/ActayWide-Bold.ttf") format("truetype"), url("/fonts/ActayWide-Bold.svg#ActayWide-Bold") format("svg");
+  src: url("../fonts/ActayWide-Bold.eot");
+  src: url("../fonts/ActayWide-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ActayWide-Bold.woff2") format("woff2"), url("../fonts/ActayWide-Bold.woff") format("woff"), url("../fonts/ActayWide-Bold.ttf") format("truetype"), url("../fonts/ActayWide-Bold.svg#ActayWide-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Ika Trial";
-  src: url("/fonts/IkaTrial-Light.eot");
-  src: url("/fonts/IkaTrial-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/IkaTrial-Light.woff2") format("woff2"), url("/fonts/IkaTrial-Light.woff") format("woff"), url("/fonts/IkaTrial-Light.ttf") format("truetype"), url("/fonts/IkaTrial-Light.svg#IkaTrial-Light") format("svg");
+  src: url("../fonts/IkaTrial-Light.eot");
+  src: url("../fonts/IkaTrial-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/IkaTrial-Light.woff2") format("woff2"), url("../fonts/IkaTrial-Light.woff") format("woff"), url("../fonts/IkaTrial-Light.ttf") format("truetype"), url("../fonts/IkaTrial-Light.svg#IkaTrial-Light") format("svg");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Ika Trial";
-  src: url("/fonts/IkaTrial-Regular.eot");
-  src: url("/fonts/IkaTrial-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/IkaTrial-Regular.woff2") format("woff2"), url("/fonts/IkaTrial-Regular.woff") format("woff"), url("/fonts/IkaTrial-Regular.ttf") format("truetype"), url("/fonts/IkaTrial-Regular.svg#IkaTrial-Regular") format("svg");
+  src: url("../fonts/IkaTrial-Regular.eot");
+  src: url("../fonts/IkaTrial-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/IkaTrial-Regular.woff2") format("woff2"), url("../fonts/IkaTrial-Regular.woff") format("woff"), url("../fonts/IkaTrial-Regular.ttf") format("truetype"), url("../fonts/IkaTrial-Regular.svg#IkaTrial-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Ika Trial";
-  src: url("/fonts/IkaTrial-Bold.eot");
-  src: url("/fonts/IkaTrial-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/IkaTrial-Bold.woff2") format("woff2"), url("/fonts/IkaTrial-Bold.woff") format("woff"), url("/fonts/IkaTrial-Bold.ttf") format("truetype"), url("/fonts/IkaTrial-Bold.svg#IkaTrial-Bold") format("svg");
+  src: url("../fonts/IkaTrial-Bold.eot");
+  src: url("../fonts/IkaTrial-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/IkaTrial-Bold.woff2") format("woff2"), url("../fonts/IkaTrial-Bold.woff") format("woff"), url("../fonts/IkaTrial-Bold.ttf") format("truetype"), url("../fonts/IkaTrial-Bold.svg#IkaTrial-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Ika Trial";
-  src: url("/fonts/IkaTrial-Medium.eot");
-  src: url("/fonts/IkaTrial-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/IkaTrial-Medium.woff2") format("woff2"), url("/fonts/IkaTrial-Medium.woff") format("woff"), url("/fonts/IkaTrial-Medium.ttf") format("truetype"), url("/fonts/IkaTrial-Medium.svg#IkaTrial-Medium") format("svg");
+  src: url("../fonts/IkaTrial-Medium.eot");
+  src: url("../fonts/IkaTrial-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/IkaTrial-Medium.woff2") format("woff2"), url("../fonts/IkaTrial-Medium.woff") format("woff"), url("../fonts/IkaTrial-Medium.ttf") format("truetype"), url("../fonts/IkaTrial-Medium.svg#IkaTrial-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -560,7 +560,7 @@ input:-moz-placeholder {
 }
 
 .header {
-  background: url(/img/header.png) no-repeat right top/cover;
+  background: url(../img/header.png) no-repeat right top/cover;
   padding-bottom: 188px;
   position: relative;
 }
@@ -891,7 +891,7 @@ input:-moz-placeholder {
 }
 
 .custom-checkbox:checked + label::before {
-  background: url(/img/check.svg) no-repeat center center;
+  background: url(../img/check.svg) no-repeat center center;
   background-size: 12px;
 }
 
@@ -1327,7 +1327,7 @@ input:-moz-placeholder {
   width: 24px;
   height: 8px;
   margin: 0 8px;
-  background: url(/img/bread.svg) no-repeat;
+  background: url(../img/bread.svg) no-repeat;
   cursor: inherit;
   pointer-events: none;
 }
@@ -1781,7 +1781,7 @@ input:-moz-placeholder {
 }
 
 .fil {
-  background: url(/img/filters.png) no-repeat right top/cover;
+  background: url(../img/filters.png) no-repeat right top/cover;
 }
 .fil .header__box {
   margin-top: 102px;
@@ -1930,7 +1930,7 @@ input:-moz-placeholder {
 }
 
 .loader {
-  background: url(/img/pre.svg) no-repeat center center/cover;
+  background: url(../img/pre.svg) no-repeat center center/cover;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1947,7 +1947,7 @@ input:-moz-placeholder {
   width: 28.37px;
   height: 28.37px;
   animation: rot infinite linear 3s;
-  background: url(/img/pre2.svg) no-repeat center center/cover;
+  background: url(../img/pre2.svg) no-repeat center center/cover;
   position: absolute;
   top: 72px;
   right: -8px;
@@ -2167,7 +2167,7 @@ input:-moz-placeholder {
     z-index: 2;
   }
   .header {
-    background: url(/img/header-tab.png) no-repeat right top/cover;
+    background: url(../img/header-tab.png) no-repeat right top/cover;
     position: relative;
   }
   .header:after {
@@ -2335,7 +2335,7 @@ input:-moz-placeholder {
     max-height: 100%;
   }
   .fil {
-    background: url(/img/filters.png) no-repeat right top/cover;
+    background: url(../img/filters.png) no-repeat right top/cover;
   }
   .fil:after {
     display: none;
@@ -3114,7 +3114,7 @@ input:-moz-placeholder {
     margin-top: 149px;
   }
   .fil {
-    background: url(/img/mobb.png) no-repeat right top/cover;
+    background: url(../img/mobb.png) no-repeat right top/cover;
   }
   .proj .order__btn {
     margin-top: 44px;
